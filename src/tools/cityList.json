@@ -1,0 +1,429 @@
+{"SoilLpgSehirListesi":["Adana","Adıyaman","Afyonkarahisar","Ağrı","Amasya","Ankara","Antalya","Artvin","Aydın","Balıkesir","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale",
+"Çankırı","Çorum","Denizli","Diyarbakır","Edirne","Elazığ","Erzincan","Erzurum","Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Isparta","Mersin",
+"İstanbul - Avrupa","İstanbul - Anadolu","İzmir","Kars","Kastamonu","Kayseri","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya","Malatya","Manisa","Kahramanmaraş",
+"Mardin","Muğla","Muş","Nevşehir","Niğde","Ordu","Rize","Sakarya","Samsun","Siirt","Sinop","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Şanlıurfa",
+"Uşak","Van","Yozgat","Zonguldak","Aksaray","Bayburt","Karaman","Kırıkkale","Batman","Şırnak","Bartın","Ardahan","Iğdır","Yalova","Karabük","Kilis","Osmaniye","Düzce"]
+,
+"MoilSehirListesi":{
+ "1":"ADANA",
+    "2":"ADIYAMAN",
+    "3":"AFYON",
+    "4":"AĞRI",
+    "5" :"AKSARAY",
+    "6" :"AMASYA",
+    "7" :"ANKARA",
+    "8" :"ANTALYA",
+    "9" :"ARDAHAN",
+    "10" :"ARTVİN",
+    "11" :"AYDIN",
+    "12" :"BALIKESİR",
+    "13" :"BARTIN",
+    "14" :"BATMAN",
+    "15" :"BAYBURT",
+    "16" :"BİLECİK",
+    "17" :"BİNGÖL",
+    "18" :"BİTLİS",
+    "19" :"BOLU",
+    "20" :"BURDUR",
+    "21" :"BURSA",
+    "22" :"ÇANAKKALE",
+    "23" :"ÇANKIRI",
+    "24" :"ÇORUM",
+    "25" :"DENİZLİ",
+    "26" :"DİYARBAKIR",
+    "27" :"EDİRNE",
+    "28" :"ELAZIĞ",
+    "29" :"ERZİNCAN",
+    "30" :"ERZURUM",
+    "31" :"ESKİŞEHİR",
+    "32" :"GAZİANTEP",
+    "33" :"GİRESUN",
+    "34" :"GÜMÜŞHANE",
+    "35" :"HAKKARİ",
+    "36" :"HATAY",
+    "37" :"IĞDIR",
+    "38" :"ISPARTA",
+    "39" :"İÇEL",
+    "40" :"İSTANBUL",
+    "41" :"İSTANBUL Anadolu",
+    "42" :"İZMİR",
+    "43" :"KAHRAMANMARAŞ",
+    "44" :"KARABÜK",
+    "45" :"KARAMAN",
+    "46" :"KARS",
+    "47" :"KASTAMONU",
+    "48" :"KAYSERİ",
+    "49" :"KIRIKKALE",
+    "50" :"KIRKLARELİ",
+    "51" :"KIRŞEHİR",
+    "52" :"KİLİS",
+    "53" :"KOCAELİ",
+    "54" :"KONYA",
+    "55" :"KÜTAHYA",
+    "56" :"MALATYA",
+    "57" :"MANİSA",
+    "58" :"MARDİN",
+    "59" :"MUĞLA",
+    "60" :"MUŞ",
+    "61" :"NEVŞEHİR",
+    "62" :"NİĞDE",
+    "63" :"ORDU",
+    "64" :"OSMANİYE",
+    "65" :"RİZE",
+    "66" :"SAKARYA",
+    "67" :"SAMSUN",
+    "68" :"SİİRT",
+    "69" :"SİNOP",
+    "70" :"SİVAS",
+    "71" :"ŞANLIURFA",
+    "72" :"ŞIRNAK",
+    "73" :"TEKİRDAĞ",
+    "74" :"TOKAT",
+    "75" :"TRABZON",
+    "76" :"TUNCELİ",
+    "77" :"UŞAK",
+    "78" :"VAN",
+    "79" :"YALOVA",
+    "80" :"YOZGAT",
+    "81" :"ZONGULDAK",
+    "120" :"DÜZCE"
+    },
+"TPSehirListesi":{
+    "1":"adana",
+"2":"adiyaman",
+"3":"afyonkarahisar",
+"4":"agri",
+"5":"aksaray",
+"6":"amasya",
+"7":"ankara",
+"8":"antalya",
+"9":"ardahan",
+"10":"artvin",
+"11":"aydin",
+"12":"balikesir",
+"13":"bartin",
+"14":"batman",
+"15":"bayburt",
+"16":"bilecik",
+"17":"bingol",
+"18":"bitlis",
+"19":"bolu",
+"20":"burdur",
+"21":"bursa",
+"22":"canakkale",
+"23":"cankiri",
+"24":"corum",
+"25":"denizli",
+"26":"diyarbakir",
+"27":"duzce",
+"28":"edirne",
+"29":"elazig",
+"30":"erzincan",
+"31":"erzurum",
+"32":"eskisehir",
+"33":"gaziantep",
+"34":"giresun",
+"35":"gumushane",
+"36":"hakkari",
+"37":"hatay",
+"38":"igdir",
+"39":"isparta",
+"40":"istanbul",
+"41":"izmir",
+"42":"kahramanmaras",
+"43":"karabuk",
+"44":"karaman",
+"45":"kars",
+"46":"kastamonu",
+"47":"kayseri",
+"48":"kirikkale",
+"49":"kirklareli",
+"50":"kirsehir",
+"51":"kilis",
+"52":"kocaeli",
+"53":"konya",
+"54":"kutahya",
+"55":"malatya",
+"56":"manisa",
+"57":"mardin",
+"58":"mersin",
+"59":"mugla",
+"60":"mus",
+"61":"nevsehir",
+"62":"nigde",
+"63":"ordu",
+"64":"osmaniye",
+"65":"rize",
+"66":"sakarya",
+"67":"samsun",
+"68":"siirt",
+"69":"sinop",
+"70":"sivas",
+"71":"sanliurfa",
+"72":"sirnak",
+"73":"tekirdag",
+"74":"tokat",
+"75":"trabzon",
+"76":"tunceli",
+"77":"usak",
+"78":"van",
+"79":"yalova",
+"80":"yozgat",
+"81":"zonguldak"
+},
+
+"TotalSehirListesi":
+{
+"1":"ADANA",
+
+"2":"ADIYAMAN",
+
+"3":"AFYON",
+
+"4":"AGRI",
+
+"5":"AKSARAY",
+
+"6":"AMASYA",
+
+"7":"ANKARA",
+
+"8":"ANTALYA",
+
+"84":"ARDAHAN",
+
+"66":"ARTVİN",
+
+"9":"AYDIN",
+
+"10":"BALIKESIR",
+
+"11":"BARTIN",
+
+"12":"BATMAN",
+
+"81":"BAYBURT",
+
+"13":"BILECIK",
+
+"67":"BİNGÖL",
+
+"68":"BİTLİS",
+
+"14":"BOLU",
+
+"15":"BURDUR",
+
+"16":"BURSA",
+
+"18":"CANKIRI",
+
+"19":"CORUM",
+
+"17":"ÇANAKKALE",
+
+"20":"DENIZLI",
+
+"21":"DIYARBAKIR",
+
+"22":"DUZCE",
+
+"23":"EDIRNE",
+
+"69":"ELAZIĞ",
+
+"24":"ERZINCAN",
+
+"25":"ERZURUM",
+
+"26":"ESKISEHIR",
+
+"27":"GAZİANTEP",
+
+"28":"GIRESUN",
+
+"70":"GÜMÜŞHANE",
+
+"71":"HAKKARİ",
+
+"29":"HATAY",
+
+"30":"IĞDIR",
+
+"31":"ISPARTA",
+
+"32":"ISTANBUL",
+
+"33":"IZMIR",
+
+"47":"İÇEL",
+
+"34":"K.MARAS",
+
+"35":"KARABUK",
+
+"36":"KARAMAN",
+
+"72":"KARS",
+
+"37":"KASTAMONU",
+
+"38":"KAYSERI",
+
+"39":"KIRIKKALE",
+
+"40":"KIRKLARELI",
+
+"41":"KIRSEHIR",
+
+"86":"KİLİS",
+
+"42":"KOCAELI",
+
+"43":"KONYA",
+
+"44":"KUTAHYA",
+
+"45":"MALATYA",
+
+"46":"MANISA",
+
+"73":"MARDİN",
+
+"48":"MUGLA",
+
+"74":"MUŞ",
+
+"49":"NEVSEHIR",
+
+"50":"NİĞDE",
+
+"51":"ORDU",
+
+"52":"OSMANIYE",
+
+"53":"RIZE",
+
+"54":"SAKARYA",
+
+"55":"SAMSUN",
+
+"56":"SIVAS",
+
+"78":"SİİRT",
+
+"57":"SİNOP",
+
+"58":"ŞANLIURFA",
+
+"82":"ŞIRNAK",
+
+"59":"TEKIRDAG",
+
+"60":"TOKAT",
+
+"61":"TRABZON",
+
+"79":"TUNCELİ",
+
+"62":"USAK",
+
+"80":"VAN",
+
+"63":"YALOVA",
+
+"64":"YOZGAT",
+
+"65":"ZONGULDAK"
+
+},
+
+"OpetLpgSehirListesi":
+{
+    
+    "1": "ADANA",
+    "2": "ADIYAMAN",
+    "3": "AFYONKARAHİSAR",
+    "4": "AĞRI",
+    "5": "AMASYA",
+    "6": "ANKARA",
+    "7": "ANTALYA",
+    "8": "ARTVİN",
+    "9": "AYDIN",
+    "10" :"BALIKESİR",
+    "11" :"BİLECİK",
+    "12" :"BİNGOL",
+    "13" :"BİTLİS",
+    "14" :"BOLU",
+    "15" :"BURDUR",
+    "16" :"BURSA",
+    "17" :"ÇANAKKALE",
+    "18" :"ÇANKIRI",
+    "19" :"ÇORUM",
+    "20" :"DENİZLİ",
+    "21" :"DİYARBAKIR",
+    "22" :"EDİRNE",
+    "23" :"ELAZIĞ",
+    "24" :"ERZİNCAN",
+    "25" :"ERZURUM",
+    "26" :"ESKİŞEHİR",
+    "27" :"GAZİANTEP",
+    "28" :"GİRESUN",
+    "29" :"GÜMÜŞHANE",
+    "30" :"HAKKARİ",
+    "31" :"HATAY",
+    "32" :"ISPARTA",
+    "33" :"İÇEL",
+    "34" :"İSTANBUL - ANADOLU",
+    "35" :"İSTANBUL - AVRUPA",
+    "36" :"İZMİR",
+    "37" :"KARS",
+    "38" :"KASTAMONU",
+    "39" :"KAYSERİ",
+    "40" :"KIRKLARELİ",
+    "41" :"KIRŞEHİR",
+    "42" :"KOCAELİ",
+    "43" :"KONYA",
+    "44" :"KÜTAHYA",
+    "45" :"MALATYA",
+    "46" :"MANİSA",
+    "47" :"KAHRAMANMARAŞ",
+    "48" :"MARDİN",
+    "49" :"MUĞLA",
+    "50" :"MUŞ",
+    "51" :"NEVŞEHİR",
+    "52" :"NİĞDE",
+    "53" :"ORDU",
+    "54" :"RİZE",
+    "55" :"SAKARYA",
+    "56" :"SAMSUN",
+    "57" :"SİİRT",
+    "58" :"SİNOP",
+    "59" :"SİVAS",
+    "60" :"TEKİRDAĞ",
+    "61" :"TOKAT",
+    "62" :"TRABZON",
+    "63" :"TUNCELİ",
+    "64" :"ŞANLIURFA",
+    "65" :"UŞAK",
+    "66" :"VAN",
+    "67" :"YOZGAT",
+    "68" :"ZONGULDAK",
+    "69" :"AKSARAY",
+    "70" :"BAYBURT",
+    "71" :"KARAMAN",
+    "72" :"KIRIKKALE",
+    "73" :"BATMAN",
+    "74" :"ŞIRNAK",
+    "75" :"BARTIN",
+    "76" :"ARDAHAN",
+    "77" :"IĞDIR",
+    "78" :"YALOVA",
+    "79" :"KARABÜK",
+    "80" :"KİLİS",
+    "81" :"OSMANİYE",
+    "82" :"DÜZCE"
+}
+
+
+}

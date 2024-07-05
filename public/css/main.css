@@ -1,0 +1,152 @@
+
+:root{
+    --main-color: rgb(3, 35, 60);
+
+    --fuel-cost-bg-color:white;
+
+    --shell-main-color: rgb(251, 206, 7);
+    --shell-second-color: rgba(241, 16, 0,1);
+    --shell-bg-color: transparent;
+
+
+
+    --aytemiz-main-color: rgba(160, 160, 160, 1);
+    --aytemiz-second-color: rgba(226, 18, 28, 1);
+    --aytemiz-bg-color: white;
+
+
+
+    --opet-main-color: rgb(37, 129, 196);
+    --opet-second-color: rgb(251, 189, 40);
+    --opet-bg-color: rgb(251, 189, 40);
+
+
+
+    --po-main-color: rgb(255, 0, 0);
+    --po-second-color: white;
+    --po-bg-color: white;
+
+
+
+    --go-main-color: rgb(84, 217, 63);
+    --go-second-color: rgb(47, 54, 64);
+    --go-bg-color: transparent;
+
+
+
+    --moil-main-color: rgb(46, 49, 147);
+    --moil-second-color: rgb(237, 27, 36);
+    --moil-bg-color: transparent;
+
+
+
+    --tp-main-color: rgb(227, 6, 19);
+    --tp-second-color: white;
+    --tp-bg-color: transparent;
+
+    --soil-main-color: rgb(255, 237, 0);
+    --soil-second-color: black;
+    --soil-bg-color: black;
+
+}
+body{
+    background-image: url("/images/bg/bg2.jpg");
+    background-repeat: repeat-y;
+    background-size: auto;
+    min-height: 100vh;
+}
+.header{
+    background-color: white;
+    width: 100vw;
+    box-shadow: 0 8px 0 0 var(--main-color);
+    padding-left: 0;
+    padding-bottom: 1px;
+}
+
+.header-hr{
+    height: 2px;
+    width: 100vw;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: var(--main-color);
+}
+.title-img{
+    height: 30px;
+    position: relative;
+    top: -5px;
+}
+.fuel-container{
+    height: 200px;
+    width: 400px;
+    border-radius: 36px;
+    margin: auto;
+    margin-top: 50px;
+}
+.fuel-icon{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.fuel-content{
+    position: relative;
+    bottom: 1.5rem;
+}
+#main-card{
+    width: 70vw;
+    margin: auto;
+}
+#key-rights{
+    color: green;
+}
+#copy-button{
+    float: right;
+}
+table {
+    overflow-x: auto;
+    display: block;
+}
+th{
+    width: 200px;
+}
+.logout{
+    float: left;
+    margin-bottom: 10px;
+}
+.docs{
+    float: right;
+    margin-bottom: 10px;
+}
+.logout-button{
+    font-size: 24px;
+}
+
+.opps-card{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.doc-fuel-icon{
+    width: 50px;
+    margin-top: 10px;
+}
+
+@media (max-width:600px) { 
+    .fuel-container{
+        width: 100%
+    }
+    #main-card{
+        width: 90vw;
+        margin: auto;
+    }
+}
+
+
+
+
+

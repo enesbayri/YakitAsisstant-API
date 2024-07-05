@@ -1,0 +1,79 @@
+  <% if (typeof msgDanger!='undefined') { %>
+    <div class="alert alert-success">   <i class="fas fa-info"></i>   <%-msgDanger %>
+  
+            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Kapat</span></button>
+    </div>
+  <% } %>
+  
+  <section class="section header">
+      <div class="container">
+        <h1 class="title">
+          <img class="title-img" src="/images/icons/mainIcon.png">Yakıt Asistan
+        </h1>
+        <p class="subtitle">
+          <strong>Yakıt Asistan</strong> uygulamasına hoşgeldin!!
+        </p>
+      </div>
+      <div class="columns">
+        <div class="column is-four-fifths"></div>
+        <div class="column"><div class="docs">  <a href="/documentation"><button class="button is-warning"><i class="fa-solid fa-file-doc"></i>DOCS</button></a></div></div>
+        <div class="column"><div class="logout">  <a href="/logout"><button class="button is-danger"><i class="fa fa-sign-out logout-button"></i></button></a></div></div>
+      </div>
+      <hr class="header-hr">
+  </section>
+  
+  
+  <section class="section" id="main-content">
+    <br><br>
+    <div class="card" id="main-card">
+      <div class="card-header pt-2">
+        <p class="title ml-5">
+          <img class="title-img" src="/images/icons/mainIcon.png">  <%=user.name %> <%=user.surname %> <p class="subtitle has-text-centered mt-2 ml-2"> Users</p>
+        </p>
+      </div>
+      <div class="card-content">
+        <table class="table is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th>İndex</th>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Surname</th>
+              <th>Email</th>
+              <th>IsEmailActive</th>
+              <th>Apikey</th>
+              <th>KeyRights</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% for( let i = 0; i < users.length; i++ ) { %>
+              <tr class='<%=(users[i]._id == current ? "is-selected" : "") %>'>
+                <th><%=i+1 %></th>
+                <td>
+                  <%=users[i]._id %>
+                </td>
+                <td><%=users[i].name %></td>
+                <td><%=users[i].surname %></td>
+                <td><strong><%=users[i].email %></strong></td>
+                <td><%=users[i].isEmailActive %></td>
+                <% if (users[i].role != "admin") { %>
+                  <td><%=users[i].apikey.slice(0,10) %>...</td>
+                  <td><strong><%=users[i].apiRights %></strong></td>
+                <% } else { %>
+                  <td></td>
+                  <td></td>
+                <% } %>
+                <td><strong><%=users[i].role %></strong></td>
+              </tr>
+            <% } %>
+          </tbody>
+        </table>
+      </div>
+      <footer class="card-footer">
+        <a href="/all-request" class="card-footer-item">API usage rights requests</a>
+      </footer>
+    </div>
+    
+  </section>
+  
